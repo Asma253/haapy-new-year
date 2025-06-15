@@ -86,3 +86,66 @@ color: #070211;
 width: 100%;
 height: 100%;
 }
+/* midnight-party-section starts here  */
+
+.midnight-party-container{
+width: 1320px;
+height: 600px;
+/* border: 2px solid red; */
+margin: 0 auto;
+display: flex;
+background-image: url(../images/Vectorrr.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba( 0,0,0,0.5);
+background-blend-mode: overlay;
+}
+.midnight-party-left-side {
+width: 65%;
+height: 600px;
+/* border: 2px solid green; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.midnight-party-left-side h1 {
+    font-size: 64px;
+    font-weight:900 ;
+    width: 642px;
+    color: #FFFFFF;
+    /* border:2px solid red ; */
+margin-left: 126px;
+}
+.midnight-party-left-side p {
+    color: #FFFFFF;
+font-weight: 400;
+font-size: 15px;
+    /* border:2px solid red ; */
+margin-left: 168px;
+margin-top: 20px;
+margin-bottom: 48px;
+
+}
+.midnight-button{
+font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+        /* border:2px solid red ; */
+
+}
+
+.midnight-party-right-side{
+/* border: 2px solid yellow; */
+width: 35%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 68px 138px 68px 94px;
+}
+.midnight-party-right-side img {
+width: 319.83px;
+height:464.66px ;
+}
