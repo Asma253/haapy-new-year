@@ -100,6 +100,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-color: rgba( 0,0,0,0.5);
 background-blend-mode: overlay;
+margin-top: 80px;
 }
 .midnight-party-left-side {
 width: 65%;
@@ -134,7 +135,7 @@ font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
         /* border:2px solid red ; */
-
+margin-right: 400px;
 }
 
 .midnight-party-right-side{
@@ -149,3 +150,68 @@ padding: 68px 138px 68px 94px;
 width: 319.83px;
 height:464.66px ;
 }
+
+/* holiday section styles  */
+
+.holiday-section-container{
+width:1320px ;
+height:986.07px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 80px;
+position: relative;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+.holiday-text-container h5 {
+    font-size:24px ;
+    font-weight: 500;
+    color: #070211;
+    font-family: inter;
+}
+.holiday-text-container h1{
+    font-size:72px ;
+    font-weight:900 ;
+}
+ .holiday-text-container p {
+    font-size:20px ;
+    font-weight: 500;
+}
+.solid-color{
+    position: absolute;
+    width: 1320px;
+    height:229px;
+    background-color: #FF0000;
+    top: 77%;
+}
+.giftbox{
+    width:674.82px ;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    
+top: 70%;
+}
+.sunglass{
+width: 424px;
+height: 450px;
+position: relative;
+left: 30%;
+top: 9%;
+
+}
+.discount{
+    position: absolute;
+    bottom: 35%;
+    left: 55%;
+    z-index: 1;
+}
+
